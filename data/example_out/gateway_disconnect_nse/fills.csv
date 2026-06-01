@@ -1,0 +1,2 @@
+parent_arb_id,client_order_id,instrument_id,venue,side,fill_px_paise,fill_qty,ts_fill_ns
+SIM-ARB-1-1,SIM-ARB-1-1-BSE-BUY-ALPHA_BUY-1,1,BSE,BUY,110000,100,3584262418412

@@ -1,0 +1,4 @@
+parent_arb_id,ts_decision_ns,instrument_id,buy_venue,sell_venue,buy_price_paise,sell_price_paise,gross_spread_paise,net_edge_paise,qty,decision_reason
+,0,0,UNKNOWN,UNKNOWN,0,0,50,-90,0,EDGE_TOO_SMALL
+,0,0,UNKNOWN,UNKNOWN,0,0,50,-90,0,EDGE_TOO_SMALL
+,0,0,UNKNOWN,UNKNOWN,0,0,50,-90,0,EDGE_TOO_SMALL

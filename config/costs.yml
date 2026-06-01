@@ -1,0 +1,8 @@
+# Beginner placeholder values in paise per share.
+# Replace with verified broker/exchange/tax values before any real deployment.
+fees_paise_per_share: 5
+taxes_paise_per_share: 5
+slippage_buffer_paise: 5
+latency_buffer_paise: 5
+hedge_risk_buffer_paise: 10
+min_net_edge_paise: 5

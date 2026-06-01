@@ -1,0 +1,11 @@
+max_order_qty: 100
+max_position_qty: 200
+max_notional_paise: 20000000
+max_book_age_us: 250
+max_orders_per_sec: 50
+max_hedge_attempts: 3
+max_hedge_delay_us: 2000
+max_hedge_loss_paise: 2000
+price_band_paise: 100
+daily_loss_limit_paise: 100000
+force_flatten_on_max_loss: false

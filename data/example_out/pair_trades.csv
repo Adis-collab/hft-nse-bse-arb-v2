@@ -1,0 +1,2 @@
+parent_arb_id,instrument_id,state,bought_qty,sold_qty,residual,hedge_attempts,last_error
+SIM-ARB-1-1,1,FLAT,100,100,0,0,

@@ -1,0 +1,12 @@
+metric,normal_queue,spsc_ring_buffer,delta_spsc_minus_normal,pct_change_spsc_vs_normal,unit,better
+events_processed_per_second,2411072.28,4070715.49,1659643.22,68.83,events/sec,spsc
+average_queue_latency,2670589.69,1668742.08,-1001847.61,-37.51,ns,spsc
+p50_latency,2774905.00,1804070.00,-970835.00,-34.99,ns,spsc
+p99_latency,4204884.00,2127548.00,-2077336.00,-49.40,ns,spsc
+p99_9_latency,4495790.00,2216867.00,-2278923.00,-50.69,ns,spsc
+max_latency,4533852.00,2257115.00,-2276737.00,-50.22,ns,spsc
+cpu_usage,192.89,179.11,-13.77,-7.14,percent_process_cpu_over_wall,spsc
+average_queue_occupancy,6512.14,6937.16,425.03,6.53,events,normal_or_tie
+max_queue_occupancy,8192.00,8191.00,-1.00,-0.01,events,spsc
+full_events,206.00,8522.00,8316.00,4036.89,count,normal_or_tie
+dropped_events,0.00,0.00,0.00,0.00,count,normal_or_tie

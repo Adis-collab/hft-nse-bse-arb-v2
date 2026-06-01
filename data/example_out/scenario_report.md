@@ -1,0 +1,24 @@
+# Scenario Report
+
+| ID | Scenario | Expected | Actual | Status |
+|---|---|---|---|---|
+| S01 | Clean arbitrage success | FLAT | FLAT | PASS |
+| S02 | Gross spread positive but net edge negative | no trades | 0 | PASS |
+| S03 | BSE buy fills, NSE sell rejects | HEDGE then FLAT | FLAT | PASS |
+| S04 | NSE sell fills, BSE buy rejects | HEDGE then FLAT | FLAT | PASS |
+| S05 | Buy partially fills, sell fails | residual hedged | FLAT | PASS |
+| S06 | Both legs partially fill unequally | residual hedged | FLAT | PASS |
+| S07 | Book stale on one venue | STALE_BOOK | STALE_BOOK | PASS |
+| S08 | Sequence gap in feed | GAP | GAP | PASS |
+| S09 | Duplicate packet | DUPLICATE | DUPLICATE | PASS |
+| S10 | Gateway disconnect | risk/error state | ERROR_RECOVERY | PASS |
+| S11 | ACK delayed | no crash | FLAT | PASS |
+| S12 | Unknown fill arrives | ORPHAN_FILL | ORPHAN_FILL | PASS |
+| S13 | Order-rate limit breached | ORDER_RATE | ORDER_RATE | PASS |
+| S14 | Inventory cap breached | MAX_POSITION | MAX_POSITION | PASS |
+| S15 | Hedge price exceeds max loss | MAX_HEDGE_LOSS | MAX_HEDGE_LOSS | PASS |
+| S16 | End-of-day residual | flatten | flatten | PASS |
+| S17 | Cost config wrong/missing | fail safe | invalid | PASS |
+| S18 | Clock skew | severe | severe | PASS |
+| S19 | Crossed/locked books | crossed | crossed | PASS |
+| S20 | Kill switch pressed | KILL_SWITCH | KILL_SWITCH | PASS |

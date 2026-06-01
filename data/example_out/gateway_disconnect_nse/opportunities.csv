@@ -1,0 +1,4 @@
+parent_arb_id,ts_decision_ns,instrument_id,buy_venue,sell_venue,buy_price_paise,sell_price_paise,gross_spread_paise,net_edge_paise,qty,decision_reason
+SIM-ARB-1-1,1000000400,1,BSE,NSE,110000,110050,50,10,100,NET_EDGE_POSITIVE
+SIM-ARB-1-2,1000000500,1,BSE,NSE,110000,110050,50,10,100,NET_EDGE_POSITIVE
+SIM-ARB-1-3,1000000600,1,BSE,NSE,110000,110050,50,10,100,NET_EDGE_POSITIVE

@@ -1,0 +1,2 @@
+name: bse_buy_fills_nse_sell_reject
+expected: alpha buy fills, alpha sell rejects, hedge manager sells residual and returns FLAT or KILL_SWITCH
