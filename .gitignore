@@ -1,0 +1,10 @@
+build/
+data/out/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+__pycache__/
+.venv/
+.DS_Store
